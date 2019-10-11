@@ -1,0 +1,99 @@
+$primary-color:rgb(224, 170, 19);
+$heading-big-color:#fff;
+$heading-small-color:#effe;
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.okay{
+   display:grid; 
+   grid-template-columns: repeat(2,1fr);
+   background-color: $primary-color;
+   align-items: center;
+   padding: 2rem;
+   height: 100vh;
+   margin: auto;
+   width: 100vw;
+   h1{
+       color:$heading-big-color;
+       font-size: 4rem;
+       font-family: courgette;
+       width: 100%;
+       font-weight: 900;
+       span{
+           color: rgb(70, 9, 9);
+           font-size: 4.5rem;
+           position: relative;
+           &::before{
+               content: "";
+               background: rgb(235, 136, 7);
+               width: 210px;
+               height: 8px;
+               display: block;
+               position: absolute;
+               bottom: 0;
+               right: 0;
+              
+           }
+       }
+   }
+   h2{
+       font-size: 2.5rem;
+       font-family:rokkitt;
+       line-height: 1;
+   }
+   .homPic{
+       width: 100%;
+       img{
+           width: 100%;
+           height: auto;
+       }
+       h4{
+           color: $heading-small-color;
+           margin-top: 0;
+           text-align: center;
+           font-size: 0.8rem;
+           margin-bottom: 2rem;
+       }
+   }
+   .homePage{
+  
+       padding: 2rem;
+       color: #fff;
+       display: grid;
+       margin-top: 0rem;
+       width: 100%;
+       margin: 10px auto;
+       p{
+           font-size: 1.5rem;
+           color: black;
+           font-family: rokkitt;
+       }
+       .btn{
+           width: 30%;
+           background: rgb(202, 55, 55);
+           color: #fff;
+           padding: 5px;
+           border-radius: 5px;
+           text-transform: uppercase;
+           font-family: 'Courier New';
+           font-size: 1rem;
+           &:hover{
+               background: rgb(136, 9, 9);
+           }
+       }
+   }
+}
+@media screen and (max-width: 700px) {
+    .okay{
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+     height: auto;
+     .homePage{
+         width: 100%;
+     }
+    }
+  }

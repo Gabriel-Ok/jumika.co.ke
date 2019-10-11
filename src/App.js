@@ -5,12 +5,14 @@ import './Main.css'
 import edi from './edi.png';
 import Okay from "./components/homePage";
 import services from "./components/service";
-
+import Menubar from "./components/Menubar";
 
 class App extends Component{
   render(){
     return(
 <div className="App">
+
+  <Menubar />
   <Okay />
   <services />
 </div>

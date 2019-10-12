@@ -1,9 +1,9 @@
 import React from 'react';
 import take from './take.png';
- function Okay(){
+ function Home(){
      return(
 
-   <div className="okay">
+   <div className="Home">
      <div className="homePage">
        <h1>Welcome to <span>Jumika</span></h1>
        <h2>We deliver anything at anytime ,any day..</h2>
@@ -13,11 +13,11 @@ import take from './take.png';
 <div className="homPic">
 <img src={take} alt="my pic"></img>
 <span><h4>Save money and time with our affordable delivery services</h4></span>
- 
+
 </div>
    </div>
 
 
      );
  }
- export default Okay;
+ export default Home;

@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 // import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import { BrowserRouter, Router, Route } from 'react-router-dom';
 import './App.css';
-import './Main.css'
-import edi from './edi.png';
-import Okay from "./components/homePage";
-import Services from "./components/service";
+import './Main.css';
+//import 'menu.js';
+import edi from "./assets/edi.png";
+//import Okay from "./components/homePage";
+//import Services from "./components/Services";
 import Home from "./components/Home";
 import Menubar from "./components/Menubar";
 import Progressbar from "./components/Progressbar";
@@ -26,12 +27,6 @@ import Services from "./components/Services";
 class App extends Component{
   render(){
     return(
-<<<<<<< HEAD
-<div className="App">
-  <Okay />
-  <Services />
-</div>
-=======
     <BrowserRouter>
       <div className="App">
 
@@ -54,7 +49,6 @@ class App extends Component{
 
       </div>
     </BrowserRouter>
->>>>>>> 7c8a990bb9075ee11673d840b42be8363eb54f4f
 
     );
   }

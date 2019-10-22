@@ -1,23 +1,25 @@
 import React from 'react';
+import { BrowserRouter, Router, Route, Link } from 'react-router-dom';
 
 function Menubar(){
     return(
 <nav>
   <ul className="menu">
-  <li className="logo"><a href="/">Jumika</a></li>
-  <li className="item"><a href="/">Home</a></li>
-  <li className="item"><a href="/Services">Services</a></li>
-  <li className="item"><a href="/Aboutus">About us</a></li>
-  <li className="item"><a href="/">Contact us</a></li>
-  <li className="item button"><a href="">Login</a></li>
-  <li className="item button secondary"><a href="">Signup</a></li>
+  <li className="logo"><Link to="/">BUNNY'S</ Link></li>
+  <li className="item"><Link to="/">Home</ Link></li>
+  <li className="item"><Link to="/Services">Services</ Link></li>
+  <li className="item"><Link to="/Aboutus">About us</ Link></li>
+  <li className="item"><Link to="/Contactus">Contact us</ Link></li>
+  <li className="item button"><Link to="/Login">Login</ Link></li>
+  <li className="item button secondary"><Link to="/Register">Signup</ Link></li>
+
   <li className="toggle"><span className="bars"></span></li>
   </ul>
-  
-</nav>
-  
 
-     
+</nav>
+
+
+
 
 
     );

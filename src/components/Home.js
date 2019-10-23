@@ -6,7 +6,7 @@ import take from './take.png';
    <div className="Home">
      <div className="homePage">
        <h1>Welcome to <span> Jumika </span></h1>
-       <select><option>Nairobi</option><option>Nairobi</option><option>Nairobi</option><option>Nairobi</option></select>
+
        <h2>We deliver anything at anytime ,any day..</h2>
        <p>We are the only  delivery partners you can trust and rely on</p>
        <button className="btn">learn more</button>

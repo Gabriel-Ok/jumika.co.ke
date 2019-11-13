@@ -1,0 +1,93 @@
+[
+    {
+        "id":40,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":41,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":42,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":43,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":44,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":45,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":46,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":47,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":48,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":49,
+        "itemType": "Women",
+        "itemName": "ItemOne",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    }
+    
+    ]

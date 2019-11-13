@@ -1,23 +1,55 @@
-// import React from 'react';
-// import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
-// import Main
-//
-//
-// function Maps(){
-//     return(
-//
-//   <div className="Maps" >
-//   <h1>Maps</h1>
-//     <div id="map" style = {{height: '100%',
-//           margin: '0',
-//           padding: '0'}}></div>
-//
-//       <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-//       async defer></script>
-//
-//   </div>
-//
-//
-//     );
-// }
-//  export default Maps;
+import React from 'react';
+import 'aos/dist/aos.css';
+import items from './Menitems.json';
+import Womenitems from './Womenitems.json';
+import Childrenitems from './Childrenitems.json';
+import Unisexitems from './Unisexitems.json';
+
+
+
+
+function searchFor(term) {
+    return function(x) {
+
+        return x.itemType.toLowerCase().includes(term.toLowerCase())
+        
+    }
+    
+}
+
+ class Maps extends React.Component {
+   
+    constructor(props) {
+        super(props);
+            this.state = {
+
+                items: items,
+                Womenitems: Womenitems,
+                Unisexitems: Unisexitems,
+                Childrenitems: Childrenitems,
+                term:'',
+            }
+    this.searchHandler =this.searchHandler.bind(this);
+        
+    }
+    searchHandler(event){
+        this.setState({term: event.target.value})
+    }
+    render(){
+
+  return(
+
+    <div>
+
+    
+        <input placeholder='search' 
+                    type='text'
+                    onChange={this.searchHandler}
+
+                    ></input>
+</div>
+
+)};
+}
+export default Maps;
+

@@ -19,7 +19,7 @@ function searchFor(term) {
     }
     
 }
- class ThriftTemplate extends React.Component {
+ class ThriftMain extends React.Component {
    
     constructor(props) {
         super(props);
@@ -280,10 +280,12 @@ function searchFor(term) {
 
 </div>
     </div>
+
+   
     
     </div>
 
     </div>
 )};
 }
-export default ThriftTemplate;
+export default ThriftMain;

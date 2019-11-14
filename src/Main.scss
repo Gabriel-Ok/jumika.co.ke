@@ -1,8 +1,9 @@
 /* SCSS varibles */
 $bg-color:#ecece9;
-$bg-btn-color:rgba(44, 183, 207, 0.333);
+$bg-btn-color:rgba(14, 158, 184, 0.333);
 $btn-text-color:#ffff;
 $box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
+
 
 
 *{
@@ -59,7 +60,7 @@ $box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
   .showcase {
 	grid-area: showcase;
 	min-height: 400px;
-	background: url("assets/show.jpg");
+	background: url("assets/shop.jpg");
 	background-size: cover;
 	background-position: center;
 	padding: 3rem;

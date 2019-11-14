@@ -3,11 +3,15 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import ThriftTemplate from "./ThriftTemplate";
 
 function Services(){
+  const sayHello=()=>{
+    console.log("alooow");
+  };
+  sayHello();
     return(
 <withRouter>
 <Switch>
   <div className="wrapper">
-    <div className="service-header">
+    <div className="service-header" id="serve">
       <h1>Our services</h1>
   <span>Here are our proffesional servicse that we offer to our esteemed customers</span>
   </div>

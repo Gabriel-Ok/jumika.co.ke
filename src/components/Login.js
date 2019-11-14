@@ -10,17 +10,17 @@ function Login(){
   <div className="login">
   <h3>Welcome! Login please</h3>
 
-  <form>
+  <form action="login.php" method="post" onSubmit="myForm()">
 
   <div className="inputgroup">
   <label  >Email</label>
-  <input type ='email'></input>
+  <input type ='email' name="email"></input>
 
 
   </div>
   <div className="inputgroup" >
   <label>Password</label>
-  <input  type ='password'></input>
+  <input  type ='password' name="password"></input>
 
 
   </div>

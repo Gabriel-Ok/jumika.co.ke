@@ -1,4 +1,9 @@
 
+<<<<<<< HEAD
+=======
+import Popper from 'popper.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+>>>>>>> 29f47605408ac9d3b85fb73b08e540957718c680
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

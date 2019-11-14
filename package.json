@@ -3,17 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
     "nodemon": "^1.19.4",
-    "react": "^16.10.2",
+    "react": "^16.11.0",
     "react-bootstrap": "^1.0.0-beta.14",
-    "react-dom": "^16.10.2",
+    "react-dom": "^16.11.0",
+    "react-flip-move": "^3.0.4",
+    "react-images-upload": "^1.2.7",
     "react-router": "^5.1.2",
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "reactstrap": "^8.1.1",
     "styled-components": "^4.4.0"
   },
   "scripts": {
@@ -36,5 +44,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-Ok/jumika.co.ke.git"
+  },
+  "keywords": [
+    "shop"
+  ],
+  "author": "Gab & Edwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-Ok/jumika.co.ke/issues"
+  },
+  "homepage": "https://github.com/Gabriel-Ok/jumika.co.ke#readme"
 }

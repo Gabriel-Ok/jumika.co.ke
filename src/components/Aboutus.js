@@ -7,8 +7,8 @@ function Aboutus(){
 <div className="about-us">
       <div className="about.info">
         <h1>About <span>Us</span></h1>
-        <p>Bunnny's is the leading Western region online store, that not only sells but also offers <a href="/Delivery">delivery</a>  and <a href="/Transport">transportaion</a> services to its clients</p>
-        <p>With both <a href="/Thrift">wholesale and retail selling</a>, we have attracted a large numbe of customers across the region. we work around the clock to ensure our customers get quality services to their satisfaction</p>
+        <p>Bunny's is the leading Western region online store, that not only sells but also offers <a href="/Delivery">delivery</a>  and <a href="/Transport">transportaion</a> services to its clients</p>
+        <p>With both <a href="/Thrift">wholesale and retail selling</a>, we have attracted a large number of customers across the region. We work around the clock to ensure our customers get quality services to their satisfaction</p>
       </div>
 
  <div className="about-pic">

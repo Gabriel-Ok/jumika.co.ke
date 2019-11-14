@@ -1,0 +1,119 @@
+[
+    {
+        "id":14,
+        "itemName": "ItemOne",
+        "itemType": "Unisex",
+        "price":"ksh. 25.00",
+        "itemdescription":"this is item one",
+        "itemDetail": "lorem ipsum blablablabla"
+        
+    },
+    {
+        "id":15,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":16,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":17,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":18,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":19,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":20,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":21,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":22,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":23,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":24,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":25,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    },
+    {
+        "id":26,
+        "itemName": "ItemTwo",
+        "itemType": "Unisex",
+        "price":"ksh. 20.00",
+        "itemdescription":"this is item two",
+        "itemDetail": "blablablabla lorem ipsum "
+        
+    }
+    ]

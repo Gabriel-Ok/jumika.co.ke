@@ -34,6 +34,8 @@ import BunnyMain from "./components/BunnyMain";
 import ThriftMain from "./components/ThriftMain";
 import FreeDelivery from "./components/FreeDelivery";
 import CollectionCentres from "./components/CollectionCentres";
+import Footer from "./components/Footer";
+
 
 
 
@@ -49,6 +51,7 @@ class App extends Component{
 
 
         < Menubar />
+        
         <Switch>
         < Route exact path = "/" component={Home} />
         < Route path = "/Services" component={Services} />
@@ -80,12 +83,16 @@ class App extends Component{
         < Route path = "/ThriftMain" component={ThriftMain} />
         < Route path = "/FreeDelivery" component={FreeDelivery} />
         < Route path = "/CollectionCentres" component={CollectionCentres} />
+       
         
         
         </Switch>
-
+      
+        <Footer/>
+  
       </div>
     </BrowserRouter>
+   
 
     );
   }

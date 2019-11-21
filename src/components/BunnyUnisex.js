@@ -44,9 +44,7 @@ function searchFor(term) {
      {/* ==============container===================== */}
 
     <div className="container " style = {{fontSize: 16}}>
-        <br></br>
-        <br></br>
-        <br></br>
+        
         <input
         placeholder='search' 
                 type='text'

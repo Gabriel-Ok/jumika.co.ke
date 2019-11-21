@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import ThriftTemplate from "./ThriftTemplate";
-import take from "./take.png";
+
 
 function Login(){
     return(
@@ -10,7 +10,7 @@ function Login(){
   <div className="login">
   <h3>Welcome! Login please</h3>
 
-  <form action="login.php" method="post" onSubmit="myForm()">
+  <form >
 
   <div className="inputgroup">
   <label  >Email</label>

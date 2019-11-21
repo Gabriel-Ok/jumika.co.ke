@@ -6,8 +6,8 @@ import items from './Menitems.json';
 import Womenitems from './Womenitems.json';
 import Childrenitems from './Childrenitems.json';
 import Unisexitems from './Unisexitems.json';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 AOS.init();
 

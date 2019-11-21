@@ -23,12 +23,12 @@ import { validate } from '@babel/types';
 
 
 
-<nav className ='navbar-fixed-top'>
+<nav className ='navba'>
 
-<div className="navbar-header">
-      <Link className="navbar-brand" id="logo" to="/">
-        <img alt="my pic" style={{height:'100%'}} src={logo}/>
-      </Link>
+<div className="navbar">
+      <div className="navba" id="logo" to="/ ">
+        <img alt="my pic" src={logo}/>
+      </div>
 
         <label for="drop" className="toggle">Menu</label>
         <input type="checkbox" id="drop" />

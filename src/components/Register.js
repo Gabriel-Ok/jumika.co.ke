@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import ThriftTemplate from "./ThriftTemplate";
-import take from "./take.png";
-import register from "../php-folder/register.php";
+
 
 function Register(){
     return(
@@ -13,7 +12,7 @@ function Register(){
         <div className="Registercontainer">
         <h3 className="Registertitle">Welcome! Please Register</h3>
 
-        <form method="post" action="register.php">
+        <form >
 
         
 

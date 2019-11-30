@@ -1,26 +1,22 @@
-import React from 'react';
+import React,{ Component, useState, PropTypes } from 'react';
 import { BrowserRouter, Router, Route, Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
-
-import { validate } from '@babel/types';
-
+import Cart from "./Cart";
 
 
 
-    class Menubar extends React.Component {
-        searchHandler(){
 
-            const val = this.searchV.value
-            console.log(val);
-            
-        }
+    class Menubar extends Component {
+
+    
+      
         render(){
        
    
             
     return(
 
-
+<div>
 
 
 <nav className ='navba'>
@@ -29,6 +25,8 @@ import { validate } from '@babel/types';
       <div className="navba" id="logo" to="/ ">
         <img alt="my pic" src={logo}/>
       </div>
+    
+    
 
         <label for="drop" className="toggle">Menu</label>
         <input type="checkbox" id="drop" />
@@ -81,15 +79,17 @@ import { validate } from '@babel/types';
                 </li>
                 <li className="item"><Link to="/Services">Services</ Link></li>
                 <li className="item"><Link to="/Aboutus">About us</ Link></li>
-                {/* <li><a href="#">Contact Us</a></li> */}
-                {/* <input placeholder='search' 
-                    type='text'
-                    ref = {(value)=> {this.searchV = value}}
-                    onChange={this.searchHandler.bind(this)}
 
-                    ></input> */}
-                <li><Link to="/Login">Login</Link></li>
-                <li><Link to="/Register">Signup</Link></li>
+
+                
+
+                {/* <li><a href="#">Contact Us</a></li> */}
+             
+                <li>  <div>
+
+<Cart />
+</div></li>
+                <li><Link to="/Signin">Sign in</Link></li>
             </ul>
        
 
@@ -101,7 +101,18 @@ import { validate } from '@babel/types';
 
 </nav>
 
+<div>
+    
+             
+</div>
+</div>
+
+
     );
+    
+    
     }
 }
+
+
  export default Menubar;

@@ -68,8 +68,8 @@ function searchFor(term) {
         <div className="row">
 
     {/* ==============mapItems============================ */}
-        {this.state.Womenitems.filter(searchFor(this.state.term)).map((getItems, index)=>{
-             return (
+        {this.state.Womenitems.filter(searchFor(this.state.term)).map((getItems, index)=>{ 
+            return (
                 
 
                 <div className="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1500">
@@ -103,12 +103,13 @@ function searchFor(term) {
                 </div>
      
 
-             )
+            )
              
              
              
-
-        })}
+ } 
+  ) 
+        }
     
     
     

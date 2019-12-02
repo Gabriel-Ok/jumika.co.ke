@@ -1,16 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
-import ThriftTemplate from "./ThriftTemplate";
-
 import firebase from 'firebase';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 
-
-firebase.initializeApp({
-  apiKey: "AIzaSyDMZIC3d11AZ3TTFVD9e3Xo7AD4oyuW-b4",
-  authDomain: "bunny-s-auth.firebaseapp.com"
-
-});
 
 class Signin extends Component {
 state = {isSignedIn : false }
@@ -24,43 +15,22 @@ uiConfig = {
 
 callbacks :
 {
-  signInSucess: () => false
+  signInSuccess: function(currentUser, credential, redirectUrl) { 
+
+    window.location = '/'
+      
+    return false;
+
+     } 
 }
 }
-componentDidMount = ()=>{
 
-
-
-
-  firebase.auth().onAuthStateChanged(user =>{
-    this.setState({ isSignedIn: !! user})
-  })
-}
   render(){
   return (
 <withRouter>
-
-  <div className="login">
-  
-
- 
-  {this.state.isSignedIn ? 
-      (   
-
-         <header className="App-header">
-  <h1>hi {firebase.auth().currentUser.displayName}</h1>
-  <img
-  src={firebase.auth().currentUser.photoURL}
-  />
-      <button onClick={() => firebase.auth().signOut()}>sign out</button>
-     </header>
-     )
-
-     :
-
-     (
-      <div className="login">
+<div className="login">
       <h3>Welcome! Sign in please</h3>
+      
       <form >
      
      <StyledFirebaseAuth 
@@ -69,23 +39,6 @@ componentDidMount = ()=>{
 
 </form>
 </div>
-      )
-  
-    
-    
-    }
-
-  
-
-  
-
-
-  </div>
-
-
- 
-
-
 
   
 </withRouter>

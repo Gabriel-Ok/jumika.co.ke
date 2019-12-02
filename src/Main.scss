@@ -22,19 +22,7 @@ height: 100%;
 	min-height: 100%;
   }
   
-  .btn {
-	background: #dd8613;
-	color: var(--light);
-	padding: 0.6rem 1.3rem;
-	text-decoration: none;
-	border: 0;
-	text-transform: capitalize;
-	font-family: verdana;
-	border-radius: 15px;
-	cursor: pointer;
-	display: block;
-	
-  }
+
   
   img {
 	max-width: 100%;
@@ -47,7 +35,7 @@ height: 100%;
 	min-height: 100%;
   }
   
- 
+
   
   /* Top Container */
   .top-container {
@@ -354,14 +342,13 @@ height: 100%;
   }
   .input{
 	width: 100%;
-	padding: 12px 20px;
+	padding: 12px;
 	margin: 8px 0;
 	display: inline-block;
 	border: 1px solid rgb(202, 139, 4);
 	border-radius: 4px;
-	box-sizing: border-box;
-	background: transparent;
-	font-size: 1.5rem;
+	box-sizing: border-box;;
+	font-size: 1rem;
 	font-family: verdana;
   }
   input[type=email], select{
@@ -374,7 +361,20 @@ height: 100%;
 	@extend .input;
 }
 button{
-	@extend .input;
+	width: 100%;
+	padding: 10px;
+outline: none;
+	border: none;
+	box-sizing: border-box;;
+	font-size: 1rem;
+	font-family: verdana;
+	background: $theme-color;
+	color: $h1-color;
+	text-transform: capitalize;
+	border-radius: 15px;
+	&:hover{
+		background: rgb(1, 83, 59);
+	}
 }
   .service-header{
 	  text-align: center;
@@ -390,6 +390,12 @@ button{
 }
 
 /* nav */
+.menu-bar{
+	background: rgb(250, 245, 245);
+	width: 25px;
+	height: 2px;
+	margin: 5px;
+}
 nav { 
 	margin:0;
 	padding: 0;
@@ -516,17 +522,15 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #eeaf01;
 		padding:14px 20px;	
 		color:#FFF;
 		font-size:17px;
 		text-decoration:none;
 		border:none;
+		cursor: pointer;
 	}
 
-	.toggle:hover {
-		background-color: #02251d;
-	}
+	
 
 	/* Display Dropdown when clicked on */
 	[id^=drop]:checked + ul {
@@ -767,7 +771,7 @@ color: #fff;
 		border-radius: 10px;
 	}
 	button{
-		background: rgb(75, 63, 63);
+		background: rgb(202, 6, 6);
 		padding: 10px;
 		width: 200px;
 		border: none;
@@ -829,8 +833,8 @@ color: #fff;
 .product-image .product-trend-label,
 .product-image .product-discount-label{
     content: "";
-    color: #fff;
-    background-color: #2ecc71;
+    color: rgb(255, 255, 255);
+    background-color: #eb5a06;
     font-size: 12px;
     line-height: 28px;
     font-weight: 700;

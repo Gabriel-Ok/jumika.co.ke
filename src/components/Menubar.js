@@ -30,7 +30,11 @@ import { validate } from '@babel/types';
         <img alt="my pic" src={logo}/>
       </div>
 
-        <label for="drop" className="toggle">Menu</label>
+        <label for="drop" className="toggle">
+            <div className="menu-bar"></div>
+            <div className="menu-bar"></div>
+            <div className="menu-bar"></div>
+        </label>
         <input type="checkbox" id="drop" />
             <ul className="menu">
             <li className="item"><Link to="/">Home</ Link></li>

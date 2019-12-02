@@ -28,8 +28,8 @@ function Footer(){
        <h2>services</h2>
 
    <ul>
-       <a><li>delivery</li></a>
-       <a><li>Thrift shop</li></a>
+       <a><li>Delivery</li></a>
+       {/* <a><li>Thrift shop</li></a> */}
        <a><li>Bunnys mall</li></a>
       
    </ul>
@@ -39,7 +39,7 @@ function Footer(){
 
    <ul>
      <li><i class="fas fa-map-marked-alt"></i> Find Us</li>
-     <li><i class="fas fa-phone-square-alt"></i> 0708906873</li>
+     <li><i class="fas fa-phone-square-alt"></i> 0706193075</li>
      <li><i class="fas fa-envelope-square"></i> bunnyskenya@gmail.com</li>
    </ul>
    <div className="social-media">

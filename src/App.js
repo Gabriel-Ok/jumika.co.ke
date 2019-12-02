@@ -14,7 +14,7 @@ import Contactus from "./components/Contactus";
 import Maps from "./components/Maps";
 import Ordercost from "./components/Ordercost";
 import Profile from "./components/Profile";
-import Register from "./components/Register";
+import Signin from "./components/Signin";
 import Riderpay from "./components/Riderpay";
 import Riderprofile from "./components/Riderprofile";
 import Ridersavailable from "./components/Ridersavailable";
@@ -35,7 +35,7 @@ import ThriftMain from "./components/ThriftMain";
 import FreeDelivery from "./components/FreeDelivery";
 import CollectionCentres from "./components/CollectionCentres";
 import Footer from "./components/Footer";
-
+import Cart from "./components/Cart";
 
 
 
@@ -64,7 +64,7 @@ class App extends Component{
         < Route path = "/Maps" component={Maps} />
         < Route path = "/Ordercost" component={Ordercost} />
         < Route path = "/Profile" component={Profile} />
-        < Route path = "/Register" component={Register} />
+        < Route path = "/Signin" component={Signin} />
         < Route path = "/Riderpay" component={Riderpay} />
         < Route path = "/Riderprofile" component={Riderprofile} />
         < Route path = "/Ridersavailable" component={Ridersavailable} />
@@ -83,6 +83,7 @@ class App extends Component{
         < Route path = "/ThriftMain" component={ThriftMain} />
         < Route path = "/FreeDelivery" component={FreeDelivery} />
         < Route path = "/CollectionCentres" component={CollectionCentres} />
+        < Route path = "/Cart" component={Cart} />
        
         
         

@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Router, Route, Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch} from '@fortawesome/free-solid-svg-icons'
 
 import bunner from '../assets/bunner.gif';
 import img from '../assets/img.jpg';
@@ -9,14 +11,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import {Container,Col,Row,Button,Card}from 'react-bootstrap';
 
-import Example from "./Example";
+
 
 
  function Home(){
      return(
 
    
-<main className="wrapper">
+<main className="wrapper ">
   
 <section className="top-container">
 <div className="showcase">
@@ -30,7 +32,7 @@ import Example from "./Example";
 <a href="#"><h5>Payment mode</h5></a>
  <a href="#"> <h5>Delivery policy</h5></a>
 
-</div>
+</div> 
 <div className="top-box top-box-b">
   <a>
   <h5>NEW ARRIVAL </h5>
@@ -76,7 +78,7 @@ import Example from "./Example";
  
   <div className="subscribe-form">
   <h2>Need help to place your order?</h2>
- <h3>Call 0717147007 or 0708906873</h3>
+ <h3>Call 0706193075</h3>
  <span>We are here to help you</span>
   </div>
   <Link to="/Women"><div>
@@ -88,7 +90,7 @@ import Example from "./Example";
 </section> 
 <div className="container">
   <div className="row">
-  
+    
     <div className="col-md-3 ">
       <div className="product-grid">
         <div className="product-image">
@@ -141,6 +143,7 @@ import Example from "./Example";
        
       </div>
     </div>
+    
     <div className="col-md-3">
       <div className="product-grid">
         <div className="product-image">
@@ -297,7 +300,8 @@ import Example from "./Example";
        
       </div>
     </div>
-  </div>
+    </div>
+  
 </div>
 </main>
 

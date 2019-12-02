@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AOS from 'aos'
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 import items from './Menitems.json';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 AOS.init();
 
@@ -41,16 +41,9 @@ function searchFor(term) {
      
      {/* ==============container===================== */}
 
-    <div className="container " style = {{fontSize: 16}}>
+    <div className="container " style = {{fontSize: 12}}>
        
-        <input
-        placeholder='search' 
-                type='text'
-                onChange={this.searchHandler}
-                
-                    >
-                        
-                    </input>
+       
                     {/* <FontAwesomeIcon icon={faSearch} /> */}
         
 
@@ -59,6 +52,14 @@ function searchFor(term) {
     {/* ==============row for men============================ */}
 
         <div className="row">
+        <input style = {{fontSize: 12}}
+        placeholder='search' 
+                type='text'
+                onChange={this.searchHandler}
+                
+                    >
+                        
+                    </input>
         
 
     {/* ==============mapItems============================ */}

@@ -18,7 +18,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
      return(
 
    
-<main className="wrapper ">
+<main className="container ">
   
 <section className="top-container">
 <div className="showcase">
@@ -28,16 +28,16 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
 
 </div>
 <div className="top-box top-box-a">
- <a href="#"> <h5>Return policy</h5></a>
-<a href="#"><h5>Payment mode</h5></a>
- <a href="#"> <h5>Delivery policy</h5></a>
+ <a href="#"> <p>Return policy</p></a>
+<a href="#"><p>Payment mode</p></a>
+ <a href="#"> <p>Delivery policy</p></a>
 
 </div> 
 <div className="top-box top-box-b">
   <a>
-  <h5>NEW ARRIVAL </h5>
-  <h5>CRAZY SALE</h5>
-  <h5>BLACK FRIDAY</h5>
+  <p>NEW ARRIVAL </p>
+  <p>CRAZY SALE</p>
+  <p>BLACK FRIDAY</p>
 </a>
 </div>
 
@@ -46,26 +46,26 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
 <Link to="/FreeDelivery">
 <div className="box one">
   
-<h5>Free Delivery</h5>
+<p>Free Delivery</p>
 
 </div>
 </ Link>
 <Link to="/BunnyMain">
 <div className="box">
- <h5>Bunny's Mall</h5>
+ <p>Bunny's Mall</p>
   
 </div>
 </Link>
 <Link to="/ThriftMain">
 <div className="box">
-  <h5>Thrift Shop</h5>
+  <p>Thrift Shop</p>
  
 </div>
 </Link>
 <Link to="/CollectionCentres">
 <div className="box">
   
-  <h5>Collection centers</h5>
+  <p>Collection centers</p>
   
 </div>
 </Link>
@@ -73,7 +73,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
 
 
 
-<section className ="product">
+<section className ="product" data-aos="fade-right" data-aos-duration="1500">
 <div className=" product-info products">
  
   <div className="subscribe-form">
@@ -81,25 +81,28 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
  <h3>Call 0706193075</h3>
  <span>We are here to help you</span>
   </div>
-  <Link to="/Women"><div>
+  <Link to="/Women" ><div>
   <img src={bunner} alt="info photo"></img> 
   </div></Link>
   
 
 </div>
 </section> 
+
 <div className="container">
-  <div className="row">
-    
-    <div className="col-md-3 ">
+  <h4>trending items for women</h4>
+  <hr></hr>
+  <div className="items-row">
+    <Link>
+    <div className="product-items " data-aos="fade-up" data-aos-duration="1500">
       <div className="product-grid">
-        <div className="product-image">
+        <div className="product-image" >
           <a href="/">
-          <img src={img} alt="info photo" className="pic-1"></img>
+          <img src={img} alt="info photo" className="pic-1" ></img>
           <img src={img} alt="info photo" className="pic-2"></img>
           </a>
           <span className="product-trend-label">
-            Trending
+          click me
           </span>
           <span class="product-discount-label">-20%</span>
           <ul className="social">
@@ -111,13 +114,16 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
         <div className="product-content">
         <div class="product-content">
                     <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
-                    <div class="price discount"><span>Khs 700</span> Ksh 508</div>
+                    
+                    <div class="price discount">Was: <span>Khs 700</span> Now: Ksh 508</div>
                 </div>
         </div>
        
       </div>
     </div>
-    <div className="col-md-3 ">
+    </Link>
+    <Link>
+    <div className="product-items " data-aos="fade-up" data-aos-duration="1500">
       <div className="product-grid">
         <div className="product-image">
           <a href="/">
@@ -125,7 +131,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
           <img src={img} alt="info photo" className="pic-2"></img>
           </a>
           <span className="product-trend-label">
-            Trending
+          click me
           </span>
           <span class="product-discount-label">-20%</span>
           <ul className="social">
@@ -137,6 +143,255 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
         <div className="product-content">
         <div class="product-content">
                     <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
+                    <div class="price discount"><span>Khs 700</span> Ksh 508</div>
+                </div>
+        </div>
+       
+      </div>
+    </div>
+    </Link>
+    
+    
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
+      <div className="product-grid">
+        <div className="product-image">
+          <a href="/">
+          <img src={img} alt="info photo" className="pic-1"></img>
+          <img src={img} alt="info photo" className="pic-2"></img>
+          </a>
+          <span className="product-trend-label">
+          click me
+          </span>
+          <span class="product-discount-label">-20%</span>
+          <ul className="social">
+          <li><a href="/" data-tip="add to cart"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="/" data-tip="add to wish list"><i class="fas fa-heart"></i></a></li>
+            <li><a href="/" data-tip="search this product"><i class="fas fa-search"></i></a></li>
+          </ul>
+        </div>
+        <div className="product-content">
+        <div class="product-content">
+                    <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
+                    <div class="price discount"><span>Khs 700</span> Ksh 508</div>
+                </div>
+        </div>
+       
+      </div>
+    </div>
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
+      <div className="product-grid">
+        <div className="product-image">
+          <a href="/">
+          <img src={img} alt="info photo" className="pic-1"></img>
+          <img src={img} alt="info photo" className="pic-2"></img>
+          </a>
+          <span className="product-trend-label">
+          click me
+          </span>
+          <span class="product-discount-label">-20%</span>
+          <ul className="social">
+          <li><a href="/" data-tip="add to cart"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="/" data-tip="add to wish list"><i class="fas fa-heart"></i></a></li>
+            <li><a href="/" data-tip="search this product"><i class="fas fa-search"></i></a></li>
+          </ul>
+        </div>
+        <div className="product-content">
+        <div class="product-content">
+                    <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
+                    <div class="price discount"><span>Khs 700</span> Ksh 508</div>
+                </div>
+        </div>
+       
+      </div>
+    </div>
+    <div className="product-items " data-aos="fade-up" data-aos-duration="1500">
+      <div className="product-grid">
+        <div className="product-image">
+          <a href="/">
+          <img src={img} alt="info photo" className="pic-1"></img>
+          <img src={img} alt="info photo" className="pic-2"></img>
+          </a>
+          <span className="product-trend-label">
+          click me
+          </span>
+          <span class="product-discount-label">-20%</span>
+          <ul className="social">
+          <li><a href="/" data-tip="add to cart"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="/" data-tip="add to wish list"><i class="fas fa-heart"></i></a></li>
+            <li><a href="/" data-tip="search this product"><i class="fas fa-search"></i></a></li>
+          </ul>
+        </div>
+        <div className="product-content">
+        <div class="product-content">
+                    <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
+                    <div class="price discount"><span>Khs 700</span> Ksh 508</div>
+                </div>
+        </div>
+       
+      </div>
+    </div>
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
+      <div className="product-grid">
+        <div className="product-image">
+          <a href="/">
+          <img src={img} alt="info photo" className="pic-1"></img>
+          <img src={img} alt="info photo" className="pic-2"></img>
+          </a>
+          <span className="product-trend-label">
+          click me
+          </span>
+          <span class="product-discount-label">-20%</span>
+          <ul className="social">
+          <li><a href="/" data-tip="add to cart"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="/" data-tip="add to wish list"><i class="fas fa-heart"></i></a></li>
+            <li><a href="/" data-tip="search this product"><i class="fas fa-search"></i></a></li>
+          </ul>
+        </div>
+        <div className="product-content">
+        <div class="product-content">
+                    <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
+                    <div class="price discount"><span>Khs 700</span> Ksh 508</div>
+                </div>
+        </div>
+       
+      </div>
+    </div>
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
+      <div className="product-grid">
+        <div className="product-image">
+          <a href="/">
+          <img src={img} alt="info photo" className="pic-1"></img>
+          <img src={img} alt="info photo" className="pic-2"></img>
+          </a>
+          <span className="product-trend-label">
+          click me
+          </span>
+          <span class="product-discount-label">-20%</span>
+          <ul className="social">
+          <li><a href="/" data-tip="add to cart"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="/" data-tip="add to wish list"><i class="fas fa-heart"></i></a></li>
+            <li><a href="/" data-tip="search this product"><i class="fas fa-search"></i></a></li>
+          </ul>
+        </div>
+        <div className="product-content">
+        <div class="product-content">
+                    <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
+                    <div class="price discount"><span>Khs 700</span> Ksh 508</div>
+                </div>
+        </div>
+       
+      </div>
+    </div>
+   
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
+      <div className="product-grid">
+        <div className="product-image">
+          <a href="/">
+          <img src={img} alt="info photo" className="pic-1"></img>
+          <img src={img} alt="info photo" className="pic-2"></img>
+          </a>
+          <span className="product-trend-label">
+          click me
+          </span>
+          <span class="product-discount-label">-20%</span>
+          <ul className="social">
+          <li><a href="/" data-tip="add to cart"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="/" data-tip="add to wish list"><i class="fas fa-heart"></i></a></li>
+            <li><a href="/" data-tip="search this product"><i class="fas fa-search"></i></a></li>
+          </ul>
+        </div>
+       
+        <div className="product-content">
+        
+          <div class="product-content">
+                    <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
+                    <div class="price discount"><span>Khs 700</span> Ksh 508</div>
+                </div>
+        
+        
+        </div>
+       
+       
+      </div>
+    </div>
+    </div>
+   
+  <hr></hr>
+</div>
+<section className ="product">
+<div className=" product-info products">
+ 
+  <div className="subscribe-form">
+  <h2>You want to know when a new stock arrives?</h2>
+ <h3>Call 0706193075</h3>
+ <span>Ask when are we opening our new bale</span>
+  </div>
+  <Link to="/Women"><div>
+  <img src={bunner} alt="info photo"></img> 
+  </div></Link>
+  
+
+</div>
+</section> 
+<div className="container">
+  <h4>trending items for men</h4>
+  <div className="items-row">
+    
+    <div className="product-items " data-aos="fade-up" data-aos-duration="1500">
+      <div className="product-grid">
+        <div className="product-image">
+          <a href="/">
+          <img src={img} alt="info photo" className="pic-1"></img>
+          <img src={img} alt="info photo" className="pic-2"></img>
+          </a>
+          <span className="product-trend-label">
+          click me
+          </span>
+          <span class="product-discount-label">-20%</span>
+          <ul className="social">
+            <li><a href="/" data-tip="add to cart"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="/" data-tip="add to wish list"><i class="fas fa-heart"></i></a></li>
+            <li><a href="/" data-tip="search this product"><i class="fas fa-search"></i></a></li>
+          </ul>
+        </div>
+        <div className="product-content">
+        <div class="product-content">
+                    <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
+        
+                </div>
+        </div>
+       
+      </div>
+    </div>
+    <div className="product-items " data-aos="fade-up" data-aos-duration="1500">
+      <div className="product-grid">
+        <div className="product-image">
+          <a href="/">
+          <img src={img} alt="info photo" className="pic-1"></img>
+          <img src={img} alt="info photo" className="pic-2"></img>
+          </a>
+          <span className="product-trend-label">
+          click me
+          </span>
+          <span class="product-discount-label">-20%</span>
+          <ul className="social">
+          <li><a href="/" data-tip="add to cart"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="/" data-tip="add to wish list"><i class="fas fa-heart"></i></a></li>
+            <li><a href="/" data-tip="search this product"><i class="fas fa-search"></i></a></li>
+          </ul>
+        </div>
+        <div className="product-content">
+        <div class="product-content">
+                    <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
                     <div class="price discount"><span>Khs 700</span> Ksh 508</div>
                 </div>
         </div>
@@ -144,7 +399,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
       </div>
     </div>
     
-    <div className="col-md-3">
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
       <div className="product-grid">
         <div className="product-image">
           <a href="/">
@@ -152,7 +407,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
           <img src={img} alt="info photo" className="pic-2"></img>
           </a>
           <span className="product-trend-label">
-            Trending
+          click me
           </span>
           <span class="product-discount-label">-20%</span>
           <ul className="social">
@@ -164,13 +419,14 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
         <div className="product-content">
         <div class="product-content">
                     <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
                     <div class="price discount"><span>Khs 700</span> Ksh 508</div>
                 </div>
         </div>
        
       </div>
     </div>
-    <div className="col-md-3">
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
       <div className="product-grid">
         <div className="product-image">
           <a href="/">
@@ -178,7 +434,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
           <img src={img} alt="info photo" className="pic-2"></img>
           </a>
           <span className="product-trend-label">
-            Trending
+          click me
           </span>
           <span class="product-discount-label">-20%</span>
           <ul className="social">
@@ -190,13 +446,14 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
         <div className="product-content">
         <div class="product-content">
                     <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
                     <div class="price discount"><span>Khs 700</span> Ksh 508</div>
                 </div>
         </div>
        
       </div>
     </div>
-    <div className="col-md-3 ">
+    <div className="product-items " data-aos="fade-up" data-aos-duration="1500">
       <div className="product-grid">
         <div className="product-image">
           <a href="/">
@@ -204,7 +461,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
           <img src={img} alt="info photo" className="pic-2"></img>
           </a>
           <span className="product-trend-label">
-            Trending
+          click me
           </span>
           <span class="product-discount-label">-20%</span>
           <ul className="social">
@@ -216,13 +473,14 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
         <div className="product-content">
         <div class="product-content">
                     <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
                     <div class="price discount"><span>Khs 700</span> Ksh 508</div>
                 </div>
         </div>
        
       </div>
     </div>
-    <div className="col-md-3 ">
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
       <div className="product-grid">
         <div className="product-image">
           <a href="/">
@@ -230,7 +488,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
           <img src={img} alt="info photo" className="pic-2"></img>
           </a>
           <span className="product-trend-label">
-            Trending
+          click me
           </span>
           <span class="product-discount-label">-20%</span>
           <ul className="social">
@@ -242,13 +500,14 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
         <div className="product-content">
         <div class="product-content">
                     <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
                     <div class="price discount"><span>Khs 700</span> Ksh 508</div>
                 </div>
         </div>
        
       </div>
     </div>
-    <div className="col-md-3">
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
       <div className="product-grid">
         <div className="product-image">
           <a href="/">
@@ -256,7 +515,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
           <img src={img} alt="info photo" className="pic-2"></img>
           </a>
           <span className="product-trend-label">
-            Trending
+          click me
           </span>
           <span class="product-discount-label">-20%</span>
           <ul className="social">
@@ -268,13 +527,14 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
         <div className="product-content">
         <div class="product-content">
                     <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
                     <div class="price discount"><span>Khs 700</span> Ksh 508</div>
                 </div>
         </div>
        
       </div>
     </div>
-    <div className="col-md-3">
+    <div className="product-items" data-aos="fade-up" data-aos-duration="1500">
       <div className="product-grid">
         <div className="product-image">
           <a href="/">
@@ -282,7 +542,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
           <img src={img} alt="info photo" className="pic-2"></img>
           </a>
           <span className="product-trend-label">
-            Trending
+          click me
           </span>
           <span class="product-discount-label">-20%</span>
           <ul className="social">
@@ -294,6 +554,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
         <div className="product-content">
         <div class="product-content">
                     <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                    
                     <div class="price discount"><span>Khs 700</span> Ksh 508</div>
                 </div>
         </div>
@@ -301,7 +562,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
       </div>
     </div>
     </div>
-  
+  <hr></hr>
 </div>
 </main>
 

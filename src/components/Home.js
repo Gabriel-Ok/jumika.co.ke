@@ -45,7 +45,7 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
 <section className="boxes">
 <Link to="/FreeDelivery">
 <div className="box one">
-  
+
 <h5>Free Delivery</h5>
 
 </div>
@@ -53,13 +53,12 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
 <Link to="/BunnyMain">
 <div className="box">
  <h5>Bunny's Mall</h5>
-  
 </div>
 </Link>
 <Link to="/ThriftMain">
 <div className="box">
   <h5>Thrift Shop</h5>
- 
+
 </div>
 </Link>
 <Link to="/CollectionCentres">
@@ -297,7 +296,6 @@ import {Container,Col,Row,Button,Card}from 'react-bootstrap';
                     <div class="price discount"><span>Khs 700</span> Ksh 508</div>
                 </div>
         </div>
-       
       </div>
     </div>
     </div>

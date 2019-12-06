@@ -31,7 +31,7 @@ onClick () {
       <div>
 
           
-        <Button onClick={this.onClick}>Cart</Button>
+        <Button onClick={this.onClick}><i class="fas fa-shopping-cart"></i></Button>
        
         <Dialog ref={(component) => { this.dialog= component }} />
 

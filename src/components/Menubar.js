@@ -14,32 +14,50 @@ firebase.initializeApp({
 });
 
 class Menubar extends Component {
-state = {isSignedIn : false }
+   
+state = {isSignedIn : false,
+        loading : true}
+
 
 componentDidMount = ()=>{
 
-
-
-
-  firebase.auth().onAuthStateChanged(user =>{
- 
     
-    this.setState({ isSignedIn: !! user})
+  firebase.auth().onAuthStateChanged(user =>{
+    if (this.user) {
+    
+    this.setState({ isSignedIn: !! user,
+    
+        authenticated : true,
+        loading: false
+    
+    })
+       
+    } else {
+        this.setState({ isSignedIn: !! user,
+    
+            authenticated : false,
+            loading: false
+        
+        })
+    }
     
   })
  
 }
   render(){
+    if (this.state.loading === true) {
+        return (<div style={{textAlign: 'center', position: 'absolute', top: '20%', left: '50%', color: 'white', fontStyle:'bold'}}><h2 >Loading...</h2></div>)
+  
+        
+    }
+   
   return (
 <withRouter>
 
   <div >
   
-
- 
   {this.state.isSignedIn ? 
       (   
-
 
          <header className="App-header">
 <nav className ='navba'>
@@ -48,8 +66,7 @@ componentDidMount = ()=>{
       <div className="navba" id="logo" to="/ ">
         <img alt="my pic" src={logo}/>
       </div>
-    
-    
+      
         <label for="drop" className="toggle">Menu</label>
         <input type="checkbox" id="drop" />
             <ul className="menu">
@@ -107,7 +124,7 @@ componentDidMount = ()=>{
 <Cart />
 </li>
           
-                <li><Link to='/' onClick={() => firebase.auth().signOut()}>sign out</Link></li>
+                <li><Link to='/' onClick={() => firebase.auth().signOut()}>Sign out</Link></li>
                 
                 
   {/* <img
@@ -131,7 +148,7 @@ componentDidMount = ()=>{
 </div>
 
 
-{/* ============================================================================================================================================= */}
+{/* ================================================================================================================================================ */}
 
 
 

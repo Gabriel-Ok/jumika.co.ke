@@ -17,15 +17,14 @@ callbacks :
 {
   signInSuccess: function(currentUser, credential, redirectUrl) { 
 
-    window.location = '/'
-      
-    return false;
+    window.location = '/';
 
      } 
 }
 }
 
   render(){
+
   return (
 <withRouter>
 <div className="login">

@@ -227,7 +227,7 @@ import img from '../assets/img.jpg';
               </div>
               <div className="product-content">
               <div class="product-content">
-                          <h3 class="title"><a href="#">Kenyan men's blazer</a></h3>
+                          <h3 class="title"><a href="#">men's blazer</a></h3>
                           
                           <div class="price discount"><span>Khs 700</span> Ksh 508</div>
                       </div>

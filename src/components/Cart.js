@@ -18,7 +18,7 @@ onClick () {
     
     <div >
     
-  <h1>CART</h1>
+  <h2>Bucket</h2>
    
  
     </div>

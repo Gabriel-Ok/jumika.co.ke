@@ -66,8 +66,17 @@ componentDidMount = ()=>{
       <div className="navba" id="logo" to="/ ">
         <img alt="my pic" src={logo}/>
       </div>
+<<<<<<< HEAD
       
         <label for="drop" className="toggle">Menu</label>
+=======
+
+        <label for="drop" className="toggle" id="">
+            <div className="menu-bar"></div>
+            <div className="menu-bar"></div>
+            <div className="menu-bar"></div>
+        </label>
+>>>>>>> ec45e6db46534f59e14085c1baf7f82c24508660
         <input type="checkbox" id="drop" />
             <ul className="menu">
             <li className="item"><Link to="/">Home</ Link></li>
@@ -119,10 +128,7 @@ componentDidMount = ()=>{
                 <li className="item"><Link to="/Aboutus">About us</ Link></li>
 
              
-                <li>
-
-<Cart />
-</li>
+               
           
                 <li><Link to='/' onClick={() => firebase.auth().signOut()}>Sign out</Link></li>
                 
@@ -130,7 +136,11 @@ componentDidMount = ()=>{
   {/* <img
   src={firebase.auth().currentUser.photoURL}
   /> */}
-                <li ><Link to='/' > Signed in as {firebase.auth().currentUser.displayName}</Link></li>
+                <li ><Link to='/' > Welcome {firebase.auth().currentUser.displayName}</Link></li>
+                <li className="item">
+
+<Cart />
+</li>
             </ul>
        
 

@@ -30,7 +30,7 @@ function Footer(){
    <ul>
        <a><li>Delivery</li></a>
        {/* <a><li>Thrift shop</li></a> */}
-       <a><li>Bunnys mall</li></a>
+       <a href=""><li>Bunnys mall</li></a>
       
    </ul>
    </div>
@@ -51,12 +51,25 @@ function Footer(){
    </div>
    </div>
    <div className="footer-bottom">
-       copyright &copy; bunnys.co.ke. 2019 all rights reserved
+    <ul>
+
+        <li className="footer-bottom-items"><a href="">About Us</a></li>
+        <li className="footer-bottom-items"><a href="">Contact Us</a></li>
+        <li className="footer-bottom-items"><a href="">Bunnys Mall</a></li>
+        <li className="footer-bottom-items"><a href="">Thrift Shop</a></li>
+        <li className="footer-bottom-items"><a href="">Services</a></li>
+        <li className="footer-bottom-items"><a href="">Return Policy</a></li>
+        <li className="footer-bottom-items"><a href="">Collection centres</a></li>
+        <li className="footer-bottom-items"><a href="">Black friday</a></li>
+      
+    </ul>
+    <hr></hr>
+    bunnys.co.ke
    </div>
    <div/>
 
  
- 
+
     </footer>
     );
 }

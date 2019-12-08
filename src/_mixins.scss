@@ -11,6 +11,7 @@
 	background: url("assets/shop.jpg");
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 	padding: 3rem;
 	display: flex;
 	flex-direction: column;
@@ -27,12 +28,12 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background:#01110e;
+		background:#043321;
 		z-index: inherit;
-		opacity: .7;
+		opacity: 0.5;
 	}
 		h1{
-			font-size: 3rem;
+			font-size: 2.5rem;
 			margin-bottom: 1rem;
 			color: $h1-color;
 			font-weight: bold;
@@ -40,10 +41,11 @@
 			text-shadow: $h1-text-shadow;
 		}
 		p{
-			font-size: 1.5rem;
+			font-size: 1.3rem;
 			margin-top: 0;
             color: $p-color;
-            font-family: verdana;
+			font-family: verdana;
+		
           
 
 		}
@@ -53,8 +55,7 @@
 @mixin box {
     background: $theme-color;
 	text-align: center;
-	padding: 1rem 1.5rem;
-	box-shadow: var(--shadow);
+	padding: 2px;
 	color: $box-color;
       font-family: verdana;
       font-weight: bold !important;
